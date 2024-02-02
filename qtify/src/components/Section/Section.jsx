@@ -40,3 +40,4 @@ const Section = ({data,title,type}) => {
 }
 
 export default Section
+//this
