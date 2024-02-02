@@ -3,8 +3,8 @@ import 'swiper/css'
 import {Navigation} from 'swiper/modules'
 import {Swiper,useSwiper,SwiperSlide} from 'swiper/react'
 import styles from './Carousel.module.css'
-import CarouselLeftNav from '../Carousel/CarouselLeftNav';
-import CarouselRightNav from '../Carousel/CarouselRightNav';
+import CarouselLeftNav from '../Carousel/CarouselLeftNav'
+import CarouselRightNav from '../Carousel/CarouselRightNav'
 
 const Controls = ({data}) => {
     let swiper = useSwiper();
@@ -12,6 +12,7 @@ const Controls = ({data}) => {
     useEffect(() => {
         // swiper.slideTo(0)
     },[data])
+
     return <></>
 }
 
@@ -32,4 +33,4 @@ const Carousel = ({data,renderCardComponent}) => {
       )
 }
 
-export default Carousel;
+export default Carousel
